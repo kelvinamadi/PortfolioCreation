@@ -1,0 +1,349 @@
+/* provides the background image that I downloaded from google */
+body,html {
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%; 
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+  }
+
+/* styles nav bar */
+nav#navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-left: 1em;
+    padding-right: 2em;
+    font-weight: bold;
+    
+}
+
+/* styles different colomns in nav bar by removing underline and making color white, spefically for links */
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* styles nav bar removing bullet point*/
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    padding: 2em;
+}
+
+/* styles other links in nav bar */
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+/* amends font size of my name in nav bar */
+#myname{
+    font-size: 1.5em;
+
+}
+
+/* changes color of my name in nav bar */
+#surname{
+    color: rgb(255, 0, 0);
+    
+}
+
+/* changes the hover color */
+nav ul li a:hover{
+    color: red;
+}
+
+/* changes the hover color */
+a.postadding:hover{
+    color: red;
+}
+
+/* styles welcome word in login page */
+#logining{
+    color: red;
+    font-weight: bold;
+    position: absolute;
+    bottom: 50%;
+    right: 47%;
+}
+
+
+/* adds padding to div in login page */
+#drawing{
+    padding-bottom: 25em;
+    padding-left: 35em;
+    
+}
+
+/* positions divs in login page */
+.buttono{
+    position: absolute;
+    bottom: 42%;
+    right: 43%;
+
+}
+
+/* positions divs in login page */
+.buttont{
+    position: absolute;
+    bottom: 35%;
+    right: 43%;
+}
+
+/* positions divs in login page */
+.buttontt{
+    position: absolute;
+    bottom: 28%;
+    right: 46.5%;
+}
+
+/* styles input box so that it is curved */
+input, textarea{
+    padding: 12px 20px;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* styles h1 tag in add blog page */
+#entry{
+    color: red;
+    font-weight: bold;
+    position: absolute;
+    right: 47%;
+    font-size: 1.5em;
+}
+
+/* styles image in add blog page */
+figure#imga{
+    padding-top: 3em;
+    position: relative;
+    right: 10%;
+    
+}
+
+/* styles box in add blog page */
+.nameentry{
+    height: 45px;
+    width : 100%;
+    position: relative;
+    right: 30%;
+}
+
+/* styles box in add blog page */
+.givenentry{
+    height: 200px;
+    width : 100%;
+    position: relative;
+    right: 30%;
+}
+
+/* styles buttons in add blog page */
+.buttonss{
+    position: absolute;
+    right: 46%;
+}
+
+/* styles div in add blog page */
+#drawing2{
+    padding-bottom: 25em;
+    padding-left: 35em;
+    
+}
+
+/* styles about me page with border */
+.describe{
+    color: white;
+    border:1px solid white;
+    position: absolute;
+    float: left;
+    margin-left: 2em;
+    margin-right: 5em;
+    margin-top: 7em;
+    right: 50%;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+/* styles Myself in about myself page */
+span{
+    color: red;
+}
+
+
+/* styles picture with positon */
+figure.specpostt{
+    position: relative;
+    float: right;
+    left: 50%;
+    padding-top: 5%;
+}
+
+
+/* styles about Myself in about myself page */
+.specpos{
+    font-size: large;
+}
+
+/* styles color of text */
+section{
+    color: white;
+    font-weight: bold;
+    
+}
+
+/* styles color of hover links */
+section a:hover{
+    color: red;
+}
+
+
+/* styles padding */
+#copy{
+    padding-left: 2em;
+}
+
+/* styles the footer */
+footer{
+    position: absolute;
+    top: 80%;
+}
+
+/* styles part of the welcome page for positioning */
+#welcome, .pod{
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    position: absolute;
+    left: 40%;
+}
+
+/* styles part of the welcome page for positioning */
+.welcomename{
+    color: white;
+    position: relative;
+    left: 48%;
+    top: 30%;
+    font-weight: bold;
+}
+
+/* styles part of the welcome page for positioning */
+figure.homei{
+    position: relative;
+    left: 35%;
+    top: 10%;
+}
+
+/* styles positioning */
+.podo{
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* styles positioning */
+.bankcode{
+    position: relative;
+    left: 30%;
+    top: 18%;
+}
+
+/* styles positioning */
+#sourcecode{
+    color: white;
+    position: relative;
+    left: 30%;
+    top: 16%;
+}
+
+/* styles positioning */
+#edu{
+    color: white;
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+/* styles positioning */
+.eduedu{
+    position: absolute;
+    left: 30%;
+    top: 10%;
+
+}
+
+#felix{
+    color: white;
+    font-size: 1em;
+
+}
+
+/* styles positioning */
+#grades{
+    color: white;
+    border:1px solid white;
+    text-align: center;
+
+}
+
+/* styles positioning */
+div#myexperience{
+    color: white;
+    border:1px solid white;
+    text-align: center;
+}
+
+/* styles positioning */
+#addfooter{
+    position: absolute;
+    top: 100%;
+}
+
+.timec{
+    color: white;
+    
+    text-align: right;
+}
+
+.titlec{
+    color: white;
+    
+    font-weight: bold;
+}
+
+.entryc{
+    color: white;
+}
+
+#necessary{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+.des{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+
+.register{
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}

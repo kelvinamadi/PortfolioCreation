@@ -1,0 +1,9 @@
+/* resets all the various html elements */
+
+html,body, div, span, h1, h2, h3, h4, h5, h6, p, figure, figcaption, nav, footer, header, ul, article, section, a, table{
+    margin: 100;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Blog Post</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <header>
+        <nav id = "navigation">
+            <h1 id = "myname" >Kelvin <span id = "surname">Amadi</span></h1>
+            <ul>
+                <li><a href="homepage.php">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="viewBlog.php">Blog</a></li>
+            </ul>
+            <form method = "POST" action = "logout.php">
+                <input type="submit" value="Log Out">
+            </form>
+        </nav>
+    </header>
+    <form method="POST" action="addEntry.php">
+        <fieldset id = "drawing2">
+            <h1 id = "entry">
+                Add Blog
+            </h1>
+            <div>
+                <figure id = "imga">
+                    <img src="images/blog.jpg" alt="Login" width="50%">
+                </figure>
+            </div>
+            <div>
+                <input type="text" id = "titling" name="Title" class = "nameentry" placeholder="Title" required>
+            </div>
+            <div>
+                <textarea name="infogiven" id = "infostuff" class="givenentry" placeholder="Enter your text here" required></textarea>
+            </div>
+            <br>
+            <div class = "buttonss">
+                <input type="submit" id = "trytosubmit" value="POST">
+                <input type="button" onclick="doubleCheck(onclick)" value="CLEAR">
+            </div>
+        </fieldset>
+    </form>
+    <section>
+        <footer id = "addfooter">
+            <nav>
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="https://www.linkedin.com/in/kelvinamadi">Linkedin</a></li>
+                    <li><a href="https://github.com/kelvinamadi">GitHub</a></li>
+                    <li><a href="https://www.qmul.ac.uk">QMUL</a></li>
+                </ul>
+                <h2 id = "copy" >
+                    Copyright@ 2022 Kelvin Amadi
+                </h2>
+            </nav>
+        </footer>
+    </section>
+</body>
+<script src = "/javascript/behavior.js"></script>
+</html>
